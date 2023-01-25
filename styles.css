@@ -10,13 +10,24 @@ html {
 html body {
   min-height: 100vh;
   width: 100%;
+  background: #0A0C1C;
+}
+html body footer {
+  text-align: center;
+  color: white;
+}
+
+.content {
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-main {
+.content .main-content {
   display: flex;
+  background: #1B1937;
+  border: 2px solid red;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

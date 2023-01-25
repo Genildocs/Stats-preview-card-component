@@ -10,13 +10,27 @@ html{
     body{
         min-height: 100vh;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background: #0A0C1C;
+
+        footer{
+            text-align: center;
+            color: white;
+        }
     }
 }
 
-main{
+.content{
+    height: 95vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main-content{
+        display: flex;
+        background: #1B1937;
+        border: 2px solid red;
+        color: white;
+    }
 }
+
 
