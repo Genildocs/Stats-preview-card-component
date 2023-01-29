@@ -10,11 +10,6 @@ html {
 html body {
   min-height: 100vh;
   width: 100%;
-  background: #0A0C1C;
-}
-html body footer {
-  text-align: center;
-  color: white;
 }
 
 .content {
@@ -22,12 +17,4 @@ html body footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.content .main-content {
-  display: flex;
-  background: #1B1937;
-  border: 2px solid red;
-  color: white;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
