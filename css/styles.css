@@ -126,6 +126,7 @@ footer a {
   .paragraph-strong {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3.2rem;
     gap: 2.4rem;
   }
 
@@ -142,5 +143,22 @@ footer a {
 
   footer {
     display: none;
+  }
+}
+
+
+@media (max-width: 475px){
+
+  .text-content{
+    padding: 0;
+  }
+
+  .paragraph-content h1{
+    padding: 3.5rem;
+  }
+
+  .paragraph-content p{
+    width: 71%;
+    margin-left: 5rem;
   }
 }
