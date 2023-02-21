@@ -1,4 +1,4 @@
-/* For mobile styles */
+/* First mobile styles */
 
 *{
     margin: 0;
@@ -15,7 +15,7 @@ body{
 .content{
     display: grid;
     grid-template-columns: 1fr;
-    border: 5px solid red;
+    
 }
 
 .text-content{
@@ -23,7 +23,7 @@ body{
 }
 
 .paragraph-content{
-
+    
 }
 
 .paragraph-strong{
@@ -32,11 +32,17 @@ body{
 
 .image-content{
     grid-row: 1;
-    
+    background-color: hsl(277, 64%, 61%);
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
 }
 
 img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
 }
 
 footer{
