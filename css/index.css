@@ -1,0 +1,24 @@
+/* For mobile styles */
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 450px){
+    /* For Desktops */
+    .content{
+        display: flex;
+    }
+
+}
