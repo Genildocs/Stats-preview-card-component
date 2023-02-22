@@ -11,7 +11,7 @@ Your users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Link
-- Solution URLhttps://genildocs.github.io/Stats-preview-card-component/)
+- Solution URL(https://genildocs.github.io/Stats-preview-card-component/)
 
 ### My process
 
